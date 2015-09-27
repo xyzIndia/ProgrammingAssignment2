@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve function calculates the mean of the special "matrix" created with makeCacheMatrix function.
+## cacheSolve function calculates the inverseMatrix of the special "matrix" created with makeCacheMatrix function.
 ## However, it first checks to see if the inverseMatrix has already been calculated.
 ## If so, it gets the inverseMatrix from the cache using getInverseMatrix and skips the computation. 
 ##Otherwise, it calculates the inverseMatrix of the matrix and sets the value of the inverseMatrix in the cache via the setInverseMatrix function.
